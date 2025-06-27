@@ -4,10 +4,10 @@
 #include <ArduinoJson.h>
 #include "DHT.h"
 
-const char* ssid = "POCO F5";
-const char* password = "12345689";
-#define BOT_TOKEN "8035251984:AAHL64HmiuNIyGBaa7G9fZFXzBPuLPE-9lE"
-#define CHAT_ID "1797000356"
+const char* ssid = "Isi dengan nama Wifi";
+const char* password = "Isi dengan Password";
+#define BOT_TOKEN "Isi dengan token Bot"
+#define CHAT_ID "Isi dengan Chat Id"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
